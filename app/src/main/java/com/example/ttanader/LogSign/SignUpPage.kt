@@ -1,5 +1,6 @@
 package com.example.ttanader.LogSign
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -11,6 +12,7 @@ import com.example.ttanader.MainActivity
 import com.example.ttanader.R
 
 class SignUpPage : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
